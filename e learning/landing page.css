@@ -1,0 +1,27 @@
+body {
+background:#fff;
+height: 100%;
+width: 100%;
+align-items: center;
+justify-content: center;
+position: relative; 
+
+}
+.box{
+    background: linear-gradient(90deg, rgba(211, 246, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 50px;
+    position: relative;
+    margin: 30px;
+    
+}
+h1{
+        font-size: 80px;
+        padding-left: 25px;
+        line-height: 120px;
+        font-weight: bolder;
+}
+.maincover{
+    width: 100%;
+    height:
+    background-position : center;
+}

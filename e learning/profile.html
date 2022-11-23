@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="/profile.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;600;700&display=swap" rel="stylesheet">
+    <!--countries and code documentation-->
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+   <!--end-->
+</head>
+
+<body>
+    <div class="mainbox">
+        <!--bo back icon-->
+        <!--<a href="/signup.html" <img src="/images/Loading/material-symbols_arrow-back-rounded.png" alt="back arrow"/></a>-->
+        <h3>Fill your profile</h3>
+        <div><img src="/images/Loading/pajamas_profile.png"/> </div>
+    
+    <form>
+        <fieldset>
+        <div>
+            <input type="text" value="Full name" placeholder="Full name"/><br>
+            <input type="text" value="Username" placeholder="Username"/>
+            <!-- Date of birth-->
+            <div class="input-icons">
+                <i class="fa fa-user icon"> <img src="/images/Loading/uim_calender.png" alt="calender icon" />
+              </i>
+                <input class="input-field" 
+                       type="date" 
+                       placeholder="Date of birth">
+             </div><!--end-->
+           <!--email-->
+            <div class="input-icons">
+                <i class="fa fa-user icon"> <img src="/images/Loading/ic_outline-email.png" alt="email icon" />
+              </i>
+                <input class="input-field" 
+                       type="email" 
+                       placeholder="Email">
+             </div>
+             <!--end-->
+             <!--country codes-->
+             <div class="container">
+ <div id="login" onsubmit="process(event)">
+   <input id="phone" type="tel" name="phone" placeholder="Enter your phone number" />
+ </div>
+ <div class="alert alert-info" style="display: none;"></div>
+</div>
+<!--end-->
+              </div>
+             
+             <input list="genders" type="text" name="genders" placeholder="Gender" /></label>
+<datalist id="genders">
+  <option value="female">
+  <option value="male">
+  <option value="non-binary">
+  <option value="others">
+</datalist>
+            </div>
+       
+            
+        </div>
+        </fieldset>
+    </form>
+        
+    <div><button class="continue">Continue</button></div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</html>

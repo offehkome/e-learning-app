@@ -1,0 +1,236 @@
+body {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Cormorant', 'poppins', serif;
+    margin: 40px;
+}
+
+.main-box {
+    height: 80%;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Cormorant', 'poppins', serif;
+    font-size: 2rem;
+}
+
+.toggles {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.toggles p {
+    margin-left: 170px;
+    color: blueviolet;
+    position: absolute;
+    left: 400px;
+}
+
+.fixed-container {
+    background: #fff;
+    color: black;
+    padding-left: 40px;
+    border-radius: 25px;
+    display: inline-flex;
+    margin: 10px;
+    font-family: 'Cormorant', 'poppins', serif;
+    border: none;
+    width: 550px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-attachment: fixed;
+}
+
+.fixeditems {
+    text-align: center;
+    margin-left: 60px;
+    padding-left: 5px;
+}
+
+.fixeditems:hover {
+    font-weight: bolder;
+    color: blue;
+
+}
+
+.shadowbox {
+    display: inline-flex;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 4px;
+    border-radius: 15px;
+    width: 550px;
+    height: 200px;
+    justify-items: center;
+    margin-top: 25px;
+    margin-left: 30px;
+    box-shadow: -14px -4px 86px -21px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -14px -4px 86px -21px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -14px -4px 86px -21px rgba(0, 0, 0, 0.75);
+}
+
+.right-side {
+    margin: 20px;
+    vertical-align: middle;
+}
+
+.item {
+    justify-content: center;
+}
+
+.bookmark {
+    position: absolute;
+    left: 550px;
+}
+
+.downitem {
+    background: #b6e8de;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.upitem {
+    font-size: 1.5rem;
+}
+
+.leftside {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+.pockets {
+    display: inline-flex;
+}
+
+.pockets img {
+    width: 20px;
+    height: 20px;
+    justify-content: end;
+}
+.container {
+    position: relative;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+.container #video {
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+.container .controls {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.2;
+    transition: opacity 0.4s;
+}
+.container:hover .controls {
+    opacity: 1;
+}
+.container .controls button {
+    background: transparent;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 2px 1px 2px #000;
+    border: none;
+    cursor: pointer;
+}
+.container .controls .timeline {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-right: 3px solid #ccc;
+    border-left: 3px solid #ccc;
+}
+.container .controls .timeline .bar{
+    background: rgb(1, 1, 65);
+    height: 4px;
+    flex: 1;
+}
+.container .controls .timeline .bar .inner{
+    background: #ccc;
+    width: 0%;
+    height: 100%;
+}
+.fa {
+    font-size: 20px !important;
+}
+/*start custom video*/
+.container {
+    position: relative;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #video {
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.container .controls {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.2;
+    transition: opacity 0.4s;
+}
+
+.container:hover .controls {
+    opacity: 1;
+}
+
+.container .controls button {
+    background: transparent;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 2px 1px 2px #000;
+    border: none;
+    cursor: pointer;
+}
+
+.container .controls .timeline {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-right: 3px solid #ccc;
+    border-left: 3px solid #ccc;
+}
+
+.container .controls .timeline .bar {
+    background: rgb(1, 1, 65);
+    height: 4px;
+    flex: 1;
+}
+
+.container .controls .timeline .bar .inner {
+    background: #ccc;
+    width: 0%;
+    height: 100%;
+}
+
+.fa {
+    font-size: 20px !important;
+}
